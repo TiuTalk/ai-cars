@@ -1,5 +1,8 @@
-require 'pry'
-require 'gosu'
+require 'rubygems'
+require 'bundler/setup'
+
+Bundler.require(:default)
+
 require './lib/track'
 require './lib/population'
 

@@ -1,5 +1,5 @@
 require 'forwardable'
-require './lib/neat/agent'
+require 'neat/agent'
 
 class Car
   GOAL_TIMEOUT = 3_000

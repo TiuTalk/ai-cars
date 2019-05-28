@@ -1,5 +1,6 @@
 require 'forwardable'
-require './lib/neat/generation'
+require 'neat/generation'
+
 require_relative 'car'
 
 class Population

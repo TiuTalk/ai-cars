@@ -1,13 +1,27 @@
+GIT
+  remote: git://github.com/tiutalk/neat.git
+  revision: e1927047d2e8610de6908c233ca5a6504578a31b
+  branch: master
+  specs:
+    neat (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
+    coderay (1.1.2)
     gosu (0.14.5)
+    method_source (0.9.2)
+    pry (0.12.2)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   gosu
+  neat!
+  pry
 
 BUNDLED WITH
    2.0.1
